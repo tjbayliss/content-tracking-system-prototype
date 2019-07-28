@@ -1,0 +1,436 @@
+
+
+
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+
+
+
+    }/* @media only screen and (max-width: 600px) */
+
+
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+
+    }/* @media only screen and (min-width: 600px)*/
+
+
+
+
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) { 
+
+    }/* end Medium devices (landscape tablets, 768px and up) */
+
+
+
+
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px){ 
+
+    }/* end Medium devices (landscape tablets, 768px and up) */
+
+
+
+
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px){
+
+    } /* Large devices (laptops/desktops, 992px and up) */
+
+
+
+
+
+    /* end Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+
+    }/* end Extra large devices (large laptops and desktops, 1200px and up) */
+
+
+    body {
+      background-color:#f2f2f2;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height:1.0rem;
+      font-size:0.75rem;
+    }
+    * {box-sizing: border-box;}
+
+
+    h1{
+      font-weight:bold;
+    }
+
+    input[type=text], select, textarea, date {
+      width: 25%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      display:inline-block;
+    }
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=date] {
+      border:1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      padding: 12px;
+      display:inline-block;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      width:100%;
+      max-width:100%;
+    }
+
+    input[type=text]#BBD_from, #BBD_to, #Palletization_from, #Palletization_to {
+      width: 15%;
+    }
+
+
+    .slide1{
+      display:none;
+    }
+
+    .banner{
+      width:100%;
+      height:100px;
+      background-color:#0100A0;
+     /* position:fixed;*/
+    }
+
+    .poc-title{
+      font-size:80px;
+      font-weight:bold;
+      color:#FFFFFF;   
+      height: 90%; 
+      width:100%;
+      display:flex;
+      align-items: center;
+      justify-content: left;
+      margin-left:25px;
+    }
+
+    .tabContainer{
+      margin-top:50px;
+    }
+
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border-bottom: 1px solid #ccc;
+      background-color: #FFFFFF;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: #ccc; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ /*     background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;*/
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+
+    li:hover{
+      font-weight:bold;
+    }
+
+    .SSCCItem{
+      display:inline-block;
+      height:25px;
+      width:100%;
+      background-color:#FFFFFF;
+    }
+
+    input[type=checkbox] {
+      margin-left:15px;
+      margin:5px;
+    }
+
+    .SSCClabel{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:12px;
+      font-weight:normal;
+      color:#000000;
+    }
+
+    label{
+      margin-left:1.0rem;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 90%;
+      height: auto;
+    }
+
+    .table-Bulk th, .table-Bulk td, .table-Summary th, .table-Summary td, table.WOinformationTable td, table.WODonorInformationTable td{
+      padding:0.25rem;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 4px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+
+    .headers{
+      font-weight:bold;
+      background-color: #dddddd;
+    }
+
+    .fillers{
+      font-weight:normal;
+    }
+
+    .infofillers{
+      font-weight:normal;
+      font-size:1.15rem;
+    }
+
+    .dialogfillers{
+      font-weight:normal;
+      font-size:0.85rem;
+    }
+
+    .buttonsBar.buttonsBar1{
+      position:absolute;
+      right:1%;
+      top:95%;
+      display:inline;
+    }
+
+    .buttonsBar.buttonsBar2{
+      position:absolute;
+      right:1%;
+      top:95%;
+      display:none;
+    }
+
+    table.WOinformationTable {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 90%;
+      height: 25%;
+      margin-top:25px;
+    }
+
+    table.WODonorInformationTable {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 90%;
+      height: 25%;
+      display:inline-block;
+      margin-top:25px;
+    }
+
+    table.table-Summary {/*
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 90%;
+      height: auto;
+      display:inline-block;*/
+      margin-top:50px;
+    }
+
+    table.summaryTable  {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 90%;
+      height: auto;
+      display:inline-block;
+      margin-top:50px;
+    }
+
+    .DonorItemLabel{
+      position:relative;
+      display:inline-block;
+    }
+
+    .totalCountLabel{
+      margin-right:5.0rem;
+      text-anchor:end;
+      font-size:1.5rem;
+      font-weight:bold;
+      display:none;
+    }
+
+    .context.WOevent{
+      pointer-events:none;
+      opacity:0.75;
+    }
+
+
+
+    .area {
+      fill: steelblue;
+      clip-path: url(#clip);
+    }
+
+    .zoom {
+      cursor: move;
+      fill: none;
+      pointer-events: all;
+    }
+
+
+    .handle.handle--e, .handle.handle--w{
+      fill:#FFF;
+      stroke:#0000A0;
+      stroke-width:1.5px;
+    }
+
+
+    .focus_events:hover{
+      cursor: pointer;
+    }
+
+
+    .focus_events{
+      clip-path: url(#clip);
+    }
+
+
+    .dialog-g{
+      display:none;
+      position:absolute;
+      top:50px;
+      left:50px;
+    }
+
+    #dialog-header{     
+      width:300px;
+      height:90px;
+      padding: 5px;
+      top:0px;
+      left:0px;
+      position:absolute;
+      z-index:2;
+    }
+
+    #dialog-base{
+      padding: 5px;
+      box-shadow: 5px 10px 18px #888888;
+      position:absolute;
+      width:300px;
+      height:405px;
+      background-color:#FFF;
+      z-index:1;
+    }
+
+    .dialog-p{
+
+    }
+
+    .itemLabel{
+      color: white;
+      position:absolute;
+      left:20px;
+      top:20px;
+      font-size:1.0rem;
+      font-weight:100;
+      z-index:3;
+    }
+
+
+    .itemCode{
+      color: white;
+      position:absolute;
+      left:20px;
+      top:50px;
+      font-size:2.0rem;
+      font-weight:bold;
+      z-index:3;
+    }
+
+    .dialogTable{
+      z-index:4;
+      position:absolute;
+      left:10px;
+      top:50px;
+    }
+
+
+    .WOChildCount{
+      font-size:1.5rem;
+
+    }
+
+
+    .summaryTable td{
+      width:10%;
+    }
+
+    .summaryTable-fillers td, .summaryTable-headers td{
+      width:10%;
+    }
+
+    tr.inProgress/*.summaryTable-Row*/{
+      background-color:#F00;
+      color:#FFF;
+      font-weight:bold;
+    }
+
+    .bar { fill: steelblue; }
+
+    

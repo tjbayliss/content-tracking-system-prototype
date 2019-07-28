@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+    
+    <head>
+        <meta charset='UTF-8'>
+        
+        <title>Mars Co-Packing PoC</title>
+        
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body onload="loadData();">
+    
+        <div class="container">
+
+            <div class="slide0">
+
+                <h1>Search for SSCCs</h1>
+                <form class="form">
+
+                    <label for="location">Location</label></br>
+                    <input type="text" id="location" name="location" placeholder="Location">
+                   
+                    </br>
+                    <label for="material">Material</label></br>
+                    <input type="text" id="material" value="NR371" name="material" placeholder="Material">
+                   
+                    </br>
+                    <label for="mgbc">Mars Global batch Code (MGBC)</label></br>
+                    <input type="text" id="mgbc" name="mgbc" value="906A1NLD06" placeholder="Mars Global batch Code (MGBC)">
+                   
+                    </br>
+                    <label for="sscc">SSCC No.</label></br>
+                    <input type="text" id="sscc" name="sscc" value="387199001527776510" placeholder="SSCC No.">
+                   
+                    </br>
+                    <label for="lrn">Local Reference Number</label></br>
+                    <input type="text" id="lrn" name="lrn" placeholder="Material">
+                    
+                    <h4>BBD</h4>
+                    <label for="BBD_from">From</label> <input type="date" name="BBD_from">
+                    <label for="BBD_to">To</label> <input type="date" name="BBD_to"> 
+                    
+                    <h4>Palletization Date and Time</h4>
+                    <label for="Palletization_from">From</label><input type="date" name="Palletization_from">
+                    <label for="Palletization_to">To</label> <input type="date" name="Palletization_to"> 
+
+                    </br></br>
+                    <button type="button" class="btn btn-info slide0" onClick="changeView()">Next</button>
+                    </br></br>
+                </form>
+            </div> 
+
+
+
+            <div class="slide1">
+                <div class="banner">
+                    <h4 class="poc-title">Mars</h4>
+                </div>
+
+                <div class="tabContainer">                 
+                    <div class="tab">
+                        <button class="tablinks Bulk" onclick="openTab(event, 'Bulk')">Bulk</button>
+                    </div>
+
+                    <div id="Bulk" class="tabcontent" style="height: 1050px; overflow: auto;">
+                        <table class="table-Bulk"></table>
+                    </div>
+                </div>
+
+                </br>
+                <div class="buttonsBar buttonsBar1">
+                    <label class="totalCountLabel">0 Children selected in total</label>
+                    <button type="button" class="btn btn-light" onClick="returnToStart()">Cancel</button>
+                    <button type="button" class="btn btn-info slide2" onClick="changeView()">Next</button>
+                </div>
+                <div class="buttonsBar buttonsBar2">
+                    <button type="button" class="btn btn-light" onClick="returnToStart()">Return to Start</button>
+                    <button type="button" class="btn btn-light" onClick="returnToStart()">Cancel</button>
+                    <button type="button" class="btn btn-info slide2">Initiate Hold(s)</button>
+                </div>
+            </div>
+        </div>   
+
+        <script src="js/d3.v4.js" type='text/javascript'></script> 
+        <script src="js/jQuery-v3.4.1.js" type='text/javascript'></script> 
+        <script src="js/modernizr.js"></script>
+        <script src="js/queue.min.js"></script>
+        <script src="js/useful_full.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/Vue-v2.6.10.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/visual.js"></script>
+        
+    </body>
+</html>

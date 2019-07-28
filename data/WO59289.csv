@@ -1,0 +1,45 @@
+﻿Item,Item Description,MGBC,SSCC,Local Pallet ID,BBD,Date and Time,Transaction Type,Quantity,UOM
+NR278,Bulk: SNICKERS miniatures bulk 10kg,911D3NLD06,387199001528179990,LE00498648,2020-03-08,04/04/2019 20:56,Used for production,-40,CASE
+NR371,Bulk: MARS miniatures bulk 10 kg,906A1NLD06,387199001527776510,LE00498844,2020-02-23,04/04/2019 20:56,Used for production,-52,CASE
+NR260,Bulk: BOUNTY miniatures bulk 10 kg,906G2NLD12,387199001527850852,LE00498605,2020-02-23,04/04/2019 20:57,Used for production,-34,CASE
+NR292,Bulk: MALTESERS Crunchy bulk 10kg,904A1VSN04,340111000024628879,LE00497084,2020-01-19,04/04/2019 21:02,Used for production,-23,CASE
+VK329,Bulk: Twix miniatures bulk 10 kg,911D1NLD07,387199001528172717,LE00498140,2019-10-13,04/04/2019 21:07,Used for production,-63,CASE
+NR816,Bulk: DOVE chunk bulk 10kg,903B1VSN04,340111000024607171,LE00508832,2020-01-12,04/04/2019 21:07,Used for production,-63,CASE
+NR811,Bulk: DOVE caramel bulk 10 kg,902G3VSN04,340111000024604286,LE00508921,2020-01-05,04/04/2019 21:08,Used for production,-63,CASE
+BB47D,Bulk:MW CR miniatures wafer,907D3BBN03,390111002005761808,LE00508912,2020-02-09,04/04/2019 21:16,Used for production,-63,CASE
+BF57S,Celebrations Sharing bag,914D91HC01,387199003513636297,2272558,2020-03-29,04/04/2019 22:50,Goods Receipt Finished Goods,88,CASE
+NR292,Bulk: MALTESERS Crunchy bulk 10kg,,,,,05/04/2019 06:45,Waste for Production order,-2.5976,CASE
+NR260,Bulk: BOUNTY miniatures bulk 10 kg,,,,,05/04/2019 06:45,Waste for Production order,3.4187,CASE
+NR816,Bulk: DOVE chunk bulk 10kg,,,,,05/04/2019 06:45,Waste for Production order,-10.5404,CASE
+NR371,Bulk: MARS miniatures bulk 10 kg,,,,,05/04/2019 06:45,Waste for Production order,-4.28,CASE
+NR278,Bulk: SNICKERS miniatures bulk 10kg,,,,,05/04/2019 06:45,Waste for Production order,-5.5813,CASE
+NR811,Bulk: DOVE caramel bulk 10 kg,,,,,05/04/2019 06:45,Waste for Production order,-10.5404,CASE
+BB47D,Bulk:MW CR miniatures wafer,,,,,05/04/2019 06:45,Waste for Production order,-10.8111,CASE
+VK329,Bulk: Twix miniatures bulk 10 kg,,,,,05/04/2019 06:45,Waste for Production order,-11.71,CASE
+BF57S,Celebrations Sharing bag,914D91HC01,387199003513636303,2272559,2020-03-29,05/04/2019 07:41,Goods Receipt Finished Goods,88,CASE
+BF57S,Celebrations Sharing bag,914E91HC01,387199003513636310,2272560,2020-03-29,05/04/2019 07:42,Goods Receipt Finished Goods,88,CASE
+BF57S,Celebrations Sharing bag,914E91HC01,387199003513636327,2272561,2020-03-29,05/04/2019 08:47,Goods Receipt Finished Goods,88,CASE
+BF57S,Celebrations Sharing bag,914E91HC01,387199003513636334,2272562,2020-03-29,05/04/2019 08:50,Goods Receipt Finished Goods,88,CASE
+BF57S,Celebrations Sharing bag,914E91HC01,387199003513636341,2272563,2020-03-29,05/04/2019 10:01,Goods Receipt Finished Goods,88,CASE
+BF57S,Celebrations Sharing bag,914E91HC01,387199003513636358,2272564,2020-03-29,05/04/2019 10:02,Goods Receipt Finished Goods,88,CASE
+BF57S,Celebrations Sharing bag,914E91HC01,387199003513636365,2272565,2020-03-29,05/04/2019 10:02,Goods Receipt Finished Goods,88,CASE
+BF57S,Celebrations Sharing bag,914E91HC01,387199003513636372,2272566,2020-03-29,05/04/2019 13:17,Goods Receipt Finished Goods,88,CASE
+BF57S,Celebrations Sharing bag,914E91HC01,387199003513636389,2272567,2020-03-29,05/04/2019 13:18,Goods Receipt Finished Goods,88,CASE
+NR260,Bulk: BOUNTY miniatures bulk 10 kg,906G2NLD12,387199001527850852,LE00498605,2020-02-23,05/04/2019 13:38,Line Clearance,2,CASE
+NR811,Bulk: DOVE caramel bulk 10 kg,902G3VSN04,340111000024604286,LE00508921,2020-01-05,05/04/2019 13:38,Line Clearance,40,CASE
+NR371,Bulk: MARS miniatures bulk 10 kg,906A1NLD06,387199001527776510,LE00498844,2020-02-23,05/04/2019 13:39,Line Clearance,4,CASE
+NR292,Bulk: MALTESERS Crunchy bulk 10kg,904A1VSN04,340111000024628879,LE00497084,2020-01-19,05/04/2019 13:39,Line Clearance,3,CASE
+NR816,Bulk: DOVE chunk bulk 10kg,903B1VSN04,340111000024607171,LE00508832,2020-01-12,05/04/2019 13:39,Line Clearance,43,CASE
+NR278,Bulk: SNICKERS miniatures bulk 10kg,911D3NLD06,387199001528179990,LE00498648,2020-03-08,05/04/2019 13:40,Line Clearance,1,CASE
+BB47D,Bulk:MW CR miniatures wafer,907D3BBN03,390111002005761808,LE00508912,2020-02-09,05/04/2019 13:41,Line Clearance,27,CASE
+VK329,Bulk: Twix miniatures bulk 10 kg,911D1NLD07,387199001528172717,LE00498140,2019-10-13,05/04/2019 13:41,Line Clearance,22,CASE
+BF57S,Celebrations Sharing bag,914E91HC01,387199003513661930,2281714,2020-03-29,05/04/2019 13:48,Goods Receipt Finished Goods,88,CASE
+BF57S,Celebrations Sharing bag,914E91HC01,387199003513661923,2281713,2020-03-29,05/04/2019 13:56,Goods Receipt Finished Goods,88,CASE
+NR292,Bulk: MALTESERS Crunchy bulk 10kg,,,,,08/04/2019 08:13,Waste for Production order,0.3384,CASE
+NR260,Bulk: BOUNTY miniatures bulk 10 kg,,,,,08/04/2019 08:13,Waste for Production order,-2.7883,CASE
+NR816,Bulk: DOVE chunk bulk 10kg,,,,,08/04/2019 08:13,Waste for Production order,8.7036,CASE
+NR371,Bulk: MARS miniatures bulk 10 kg,,,,,08/04/2019 08:13,Waste for Production order,-1.48,CASE
+NR278,Bulk: SNICKERS miniatures bulk 10kg,,,,,08/04/2019 08:13,Waste for Production order,-0.7883,CASE
+NR811,Bulk: DOVE caramel bulk 10 kg,,,,,08/04/2019 08:13,Waste for Production order,5.7036,CASE
+BB47D,Bulk:MW CR miniatures wafer,,,,,08/04/2019 08:13,Waste for Production order,-1.6401,CASE
+VK329,Bulk: Twix miniatures bulk 10 kg,,,,,08/04/2019 08:13,Waste for Production order,2.39,CASE
